@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080808">
+<meta name="description" content="LUXE MUSIC — label indépendant basé à Conakry, Guinée. Musique, artistes, clips et nouveaux talents.">
+<title>LUXE MUSIC — Le son a un nouveau luxe</title>
+<style>
+:root{--bg:#080808;--panel:#111111;--gold:#d8b33e;--gold2:#f2d878;--text:#f7f4ec;--muted:#b9b6ad;--line:rgba(216,179,62,.23);--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.topline{height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}header{position:sticky;top:0;z-index:10;background:rgba(8,8,8,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:1.35rem;font-weight:900;letter-spacing:.14em;color:var(--gold)}.brand span{color:#fff}.navlinks{display:flex;align-items:center;gap:24px;font-size:.9rem;color:#dedbd2}.navlinks a:hover{color:var(--gold)}.navright{display:flex;gap:10px;align-items:center}.lang{background:transparent;color:var(--gold);border:1px solid var(--gold);padding:8px 12px;border-radius:8px;font-weight:800;cursor:pointer}.menu{display:none;background:none;border:1px solid var(--line);color:white;border-radius:8px;padding:8px}.hero{position:relative;overflow:hidden;min-height:670px;display:grid;align-items:center;border-bottom:1px solid var(--line);background:radial-gradient(ellipse at 75% 40%,rgba(216,179,62,.14),transparent 36%),linear-gradient(135deg,#080808 30%,#15120a 100%)}.hero:after{content:"LM";position:absolute;right:3%;top:50%;transform:translateY(-50%);font-size:clamp(12rem,30vw,27rem);font-weight:900;letter-spacing:-.12em;color:rgba(216,179,62,.045);pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;padding:90px 0;position:relative;z-index:1}.eyebrow{color:var(--gold);font-size:.76rem;font-weight:800;letter-spacing:.28em;text-transform:uppercase}.hero h1{font-size:clamp(3rem,7vw,6.2rem);line-height:.99;letter-spacing:-.055em;margin:20px 0 25px;max-width:780px}.hero h1 em{font-style:normal;color:var(--gold)}.lead{font-size:1.12rem;color:var(--muted);max-width:600px}.actions{display:flex;flex-wrap:wrap;gap:13px;margin-top:30px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;border-radius:8px;padding:13px 19px;font-weight:800;border:1px solid var(--gold);transition:.2s}.btn.gold{background:var(--gold);color:#090909}.btn.gold:hover{background:var(--gold2);transform:translateY(-2px)}.btn.ghost{color:var(--gold);background:transparent}.btn.ghost:hover{background:rgba(216,179,62,.1)}.hero-art{min-height:410px;position:relative;display:grid;place-items:center}.orbit{width:min(360px,75vw);aspect-ratio:1;border-radius:50%;border:1px solid rgba(216,179,62,.45);display:grid;place-items:center;box-shadow:0 0 80px rgba(216,179,62,.08),inset 0 0 50px rgba(216,179,62,.05);position:relative}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid rgba(216,179,62,.23);border-radius:50%;inset:22px}.orbit:after{inset:48px}.disc{width:62%;aspect-ratio:1;border-radius:50%;background:repeating-radial-gradient(circle at center,#151515 0 4px,#28251c 5px 6px,#080808 7px 10px);border:1px solid #9f8129;display:grid;place-items:center;box-shadow:0 15px 50px #000}.disc-center{width:31%;aspect-ratio:1;border-radius:50%;background:linear-gradient(145deg,var(--gold2),#8e6b15);display:grid;place-items:center;color:#090909;font-size:1.35rem;font-weight:900;letter-spacing:-.06em}.orbit-label{position:absolute;bottom:0;right:0;background:#111;border:1px solid var(--line);padding:14px 18px;border-radius:12px;color:var(--muted);font-size:.8rem}.orbit-label strong{display:block;color:var(--gold);font-size:1rem;letter-spacing:.08em}.section{padding:92px 0;border-bottom:1px solid rgba(255,255,255,.06)}.section-head{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:34px}.section h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.04em;margin:10px 0}.section-intro{max-width:590px;color:var(--muted);margin:0}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,#141414,#0d0d0d);border:1px solid var(--line);border-radius:16px;padding:25px;min-height:220px}.card .num{color:var(--gold);font-size:.78rem;letter-spacing:.2em;font-weight:900}.card h3{font-size:1.35rem;margin:18px 0 8px}.card p{color:var(--muted);margin:0}.artist{display:grid;grid-template-columns:.85fr 1.15fr;gap:35px;align-items:center}.artist-art{min-height:440px;border-radius:18px;border:1px solid var(--line);background:radial-gradient(circle at 50% 35%,rgba(216,179,62,.28),transparent 30%),linear-gradient(145deg,#1a170e,#090909 65%);display:grid;place-items:center;position:relative;overflow:hidden}.artist-art:before{content:"";position:absolute;width:75%;aspect-ratio:1;border:1px solid rgba(216,179,62,.3);border-radius:50%;box-shadow:0 0 0 25px rgba(216,179,62,.025),0 0 0 55px rgba(216,179,62,.02)}.artist-mark{position:relative;text-align:center}.artist-mark small{display:block;color:var(--gold);letter-spacing:.25em;font-weight:800}.artist-mark strong{font-size:clamp(2.4rem,6vw,4.8rem);line-height:1;letter-spacing:-.07em}.artist-copy h3{font-size:2.3rem;color:var(--gold);margin:8px 0}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}.tag{border:1px solid var(--line);border-radius:100px;padding:6px 12px;color:#e8d99f;font-size:.8rem}.artist-copy p{color:var(--muted)}.note{font-size:.84rem;color:#8f8a7d;border-left:2px solid var(--gold);padding-left:12px;margin-top:22px}.release{display:flex;flex-direction:column;justify-content:space-between;min-height:210px}.release .cover{height:86px;border-radius:10px;background:linear-gradient(135deg,#27200b,#0b0b0b);display:grid;place-items:center;color:var(--gold);font-size:1.7rem;font-weight:900;letter-spacing:.12em;margin-bottom:16px}.release small{color:var(--gold);letter-spacing:.15em}.release h3{margin:6px 0}.release p{font-size:.9rem}.band{background:linear-gradient(100deg,rgba(216,179,62,.12),rgba(216,179,62,.02));border:1px solid var(--line);border-radius:18px;padding:35px;display:flex;align-items:center;justify-content:space-between;gap:30px}.band h2{margin:8px 0 12px}.band p{color:var(--muted);max-width:650px;margin:0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}.contact-box{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:28px}.contact-box p{color:var(--muted)}.contact-link{display:flex;align-items:center;gap:12px;margin-top:18px;color:var(--gold);font-weight:800;overflow-wrap:anywhere}.socials{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.socials a{border:1px solid var(--line);border-radius:8px;padding:8px 12px;color:#dedbd2;font-size:.9rem}.smallprint{font-size:.8rem;color:#888276}footer{padding:30px 0;color:#8f8a7d;font-size:.86rem}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.gold-text{color:var(--gold)}
+@media(max-width:800px){.nav{min-height:68px}.navlinks{display:none;position:absolute;left:0;right:0;top:68px;background:#0a0a0a;border-bottom:1px solid var(--line);padding:20px;flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menu{display:block}.hero-grid{grid-template-columns:1fr;gap:20px;padding:75px 0 50px}.hero{min-height:auto}.hero-art{min-height:310px}.orbit{width:270px}.hero:after{top:48%;font-size:15rem}.grid3{grid-template-columns:1fr}.section{padding:65px 0}.section-head{display:block}.section-intro{margin-top:12px}.artist{grid-template-columns:1fr}.artist-art{min-height:300px}.band{display:block;padding:25px}.band .btn{margin-top:22px}.contact-grid{grid-template-columns:1fr}.brand{font-size:1.05rem}.wrap{width:min(var(--max),calc(100% - 28px))}}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="LUXE MUSIC home">LUXE <span>MUSIC</span></a>
+    <nav class="navlinks" id="navlinks">
+      <a href="#label" data-fr="Le label" data-en="The label">Le label</a>
+      <a href="#artist" data-fr="Artiste" data-en="Artist">Artiste</a>
+      <a href="#music" data-fr="Musique" data-en="Music">Musique</a>
+      <a href="#contact" data-fr="Contact" data-en="Contact">Contact</a>
+    </nav>
+    <div class="navright"><button class="lang" id="langBtn" aria-label="Change language">EN</button><button class="menu" id="menuBtn" aria-label="Open menu">☰</button></div>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow" data-fr="Label musical indépendant · Conakry, Guinée" data-en="Independent music label · Conakry, Guinea">Label musical indépendant · Conakry, Guinée</div>
+      <h1 data-fr="Le son a un<br><em>nouveau luxe.</em>" data-en="Sound has a<br><em>new luxury.</em>">Le son a un<br><em>nouveau luxe.</em></h1>
+      <p class="lead" data-fr="Nous accompagnons une nouvelle génération d'artistes et de talents. Une vision ambitieuse, une identité forte, une musique qui traverse les frontières." data-en="We support a new generation of artists and talent. A bold vision, a strong identity, and music that crosses borders.">Nous accompagnons une nouvelle génération d'artistes et de talents. Une vision ambitieuse, une identité forte, une musique qui traverse les frontières.</p>
+      <div class="actions"><a class="btn gold" href="#artist" data-fr="Découvrir l'artiste ↘" data-en="Discover the artist ↘">Découvrir l'artiste ↘</a><a class="btn ghost" href="#contact" data-fr="Travailler avec nous" data-en="Work with us">Travailler avec nous</a></div>
+    </div>
+    <div class="hero-art" aria-label="Illustration abstraite d'un disque musical">
+      <div class="orbit"><div class="disc"><div class="disc-center">LM</div></div><div class="orbit-label"><strong>LUXE MUSIC</strong><span data-fr="Le futur du son" data-en="The future of sound">Le futur du son</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="label">
+  <div class="wrap">
+    <div class="section-head"><div><div class="eyebrow" data-fr="Notre identité" data-en="Our identity">Notre identité</div><h2 data-fr="Plus qu'un label.<br>Une signature." data-en="More than a label.<br>A signature.">Plus qu'un label.<br>Une signature.</h2></div><p class="section-intro" data-fr="LUXE MUSIC est un projet indépendant né à Conakry. Notre objectif : développer des artistes avec une identité singulière, une stratégie durable et une ambition internationale." data-en="LUXE MUSIC is an independent project born in Conakry. Our goal: develop artists with a distinctive identity, a sustainable strategy, and international ambition.">LUXE MUSIC est un projet indépendant né à Conakry. Notre objectif : développer des artistes avec une identité singulière, une stratégie durable et une ambition internationale.</p></div>
+    <div class="grid3">
+      <article class="card"><div class="num">01 / VISION</div><h3 data-fr="Une identité forte" data-en="A strong identity">Une identité forte</h3><p data-fr="Un univers visuel et sonore reconnaissable, fidèle aux artistes et à leurs histoires." data-en="A recognizable visual and sonic universe, true to each artist and their story.">Un univers visuel et sonore reconnaissable, fidèle aux artistes et à leurs histoires.</p></article>
+      <article class="card"><div class="num">02 / DÉVELOPPEMENT</div><h3 data-fr="Construire la carrière" data-en="Build the career">Construire la carrière</h3><p data-fr="Accompagnement, stratégie de sortie, communication et développement progressif du public." data-en="Artist support, release strategy, communication, and gradual audience growth.">Accompagnement, stratégie de sortie, communication et développement progressif du public.</p></article>
+      <article class="card"><div class="num">03 / ORIGINE</div><h3 data-fr="Depuis Conakry" data-en="From Conakry">Depuis Conakry</h3><p data-fr="Une énergie guinéenne ouverte au monde, avec le respect de notre culture et l'envie d'innover." data-en="Guinean energy open to the world, rooted in our culture and driven to innovate.">Une énergie guinéenne ouverte au monde, avec le respect de notre culture et l'envie d'innover.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="artist">
+  <div class="wrap artist">
+    <div class="artist-art"><div class="artist-mark"><small>ARTISTE LUXE MUSIC</small><strong>STEF<br>LA MÉLO</strong></div></div>
+    <div class="artist-copy"><div class="eyebrow" data-fr="L'artiste à suivre" data-en="Artist to watch">L'artiste à suivre</div><h3>STEF LA MÉLO</h3><p data-fr="Rap mélodique et drill. Une voix, une énergie et une ambition qui méritent d'être entendues. Découvrez bientôt son univers, ses sorties et ses projets." data-en="Melodic rap and drill. A voice, an energy, and an ambition that deserve to be heard. Discover his world, releases, and projects soon.">Rap mélodique et drill. Une voix, une énergie et une ambition qui méritent d'être entendues. Découvrez bientôt son univers, ses sorties et ses projets.</p>
+      <div class="tags"><span class="tag">Rap mélodique</span><span class="tag">Drill</span><span class="tag">Guinée</span></div>
+      <a class="btn gold" href="#music" data-fr="Explorer ses projets ↓" data-en="Explore his projects ↓">Explorer ses projets ↓</a>
+      <p class="note" data-fr="La photo officielle, les morceaux et les clips seront ajoutés dès qu'ils seront prêts. Aucun lien de streaming n'est inventé." data-en="The official photo, tracks, and videos will be added when ready. No streaming links are fabricated.">La photo officielle, les morceaux et les clips seront ajoutés dès qu'ils seront prêts. Aucun lien de streaming n'est inventé.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="music">
+  <div class="wrap">
+    <div class="section-head"><div><div class="eyebrow" data-fr="Le catalogue" data-en="The catalogue">Le catalogue</div><h2 data-fr="Les prochaines sorties." data-en="Coming soon.">Les prochaines sorties.</h2></div><p class="section-intro" data-fr="Les morceaux et clips officiels seront affichés ici après leur publication. Reviens pour découvrir les nouveautés de LUXE MUSIC." data-en="Official tracks and videos will appear here after release. Come back to discover the latest from LUXE MUSIC.">Les morceaux et clips officiels seront affichés ici après leur publication. Reviens pour découvrir les nouveautés de LUXE MUSIC.</p></div>
+    <div class="grid3">
+      <article class="card release"><div><div class="cover">LM / 001</div><small data-fr="PROCHAIN SINGLE" data-en="UPCOMING SINGLE">PROCHAIN SINGLE</small><h3>STEF LA MÉLO</h3><p data-fr="Titre à annoncer" data-en="Title to be announced">Titre à annoncer</p></div><span class="smallprint" data-fr="Date de sortie à confirmer" data-en="Release date to be confirmed">Date de sortie à confirmer</span></article>
+      <article class="card release"><div><div class="cover">VIDEO</div><small data-fr="CLIP OFFICIEL" data-en="OFFICIAL VIDEO">CLIP OFFICIEL</small><h3 data-fr="Bientôt disponible" data-en="Coming soon">Bientôt disponible</h3><p data-fr="Le prochain visuel du label." data-en="The label's next visual release.">Le prochain visuel du label.</p></div><span class="smallprint" data-fr="Lien ajouté après publication" data-en="Link added after release">Lien ajouté après publication</span></article>
+      <article class="card release"><div><div class="cover">NEXT</div><small data-fr="ACTUALITÉS" data-en="NEWS">ACTUALITÉS</small><h3 data-fr="L'aventure commence" data-en="The journey begins">L'aventure commence</h3><p data-fr="Suivez la progression du label et de ses artistes." data-en="Follow the label and its artists as they grow.">Suivez la progression du label et de ses artistes.</p></div><span class="smallprint" data-fr="Restez connectés" data-en="Stay connected">Restez connectés</span></article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap band"><div><div class="eyebrow" data-fr="Collaborations" data-en="Collaborations">Collaborations</div><h2 data-fr="Un talent ? Un projet ?" data-en="Talent? A project?">Un talent ? Un projet ?</h2><p data-fr="Artistes, beatmakers, réalisateurs et partenaires : LUXE MUSIC est ouvert aux collaborations sérieuses. Présente ton projet et parlons de la suite." data-en="Artists, beatmakers, video directors, and partners: LUXE MUSIC is open to serious collaborations. Tell us about your project and let's talk.">Artistes, beatmakers, réalisateurs et partenaires : LUXE MUSIC est ouvert aux collaborations sérieuses. Présente ton projet et parlons de la suite.</p></div><a class="btn gold whatsapp-link" href="https://wa.me/224000000000" target="_blank" rel="noopener" data-fr="Écrire sur WhatsApp ↗" data-en="Message us on WhatsApp ↗">Écrire sur WhatsApp ↗</a></div>
+</section>
+
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="section-head"><div><div class="eyebrow" data-fr="Restons en contact" data-en="Stay connected">Restons en contact</div><h2 data-fr="Faisons du bruit.<br>Ensemble." data-en="Make some noise.<br>Together.">Faisons du bruit.<br>Ensemble.</h2></div><p class="section-intro" data-fr="Pour les collaborations, demandes professionnelles ou informations sur les sorties, contacte directement LUXE MUSIC." data-en="For collaborations, professional inquiries, or release information, contact LUXE MUSIC directly.">Pour les collaborations, demandes professionnelles ou informations sur les sorties, contacte directement LUXE MUSIC.</p></div>
+    <div class="contact-grid">
+      <div class="contact-box"><div class="eyebrow" data-fr="Contact principal" data-en="Main contact">Contact principal</div><h3>WhatsApp</h3><p data-fr="Le moyen le plus simple pour nous présenter ton projet ou demander des informations." data-en="The easiest way to introduce your project or ask for information.">Le moyen le plus simple pour nous présenter ton projet ou demander des informations.</p><a class="contact-link whatsapp-link" href="https://wa.me/224000000000" target="_blank" rel="noopener">✦ <span data-fr="Contacter LUXE MUSIC" data-en="Contact LUXE MUSIC">Contacter LUXE MUSIC</span> ↗</a><p class="smallprint" data-fr="Important : remplace le numéro provisoire dans le code par ton vrai numéro WhatsApp avec l'indicatif 224, sans le signe + ni les espaces." data-en="Important: replace the temporary number in the code with your real WhatsApp number, using country code 224 without + or spaces.">Important : remplace le numéro provisoire dans le code par ton vrai numéro WhatsApp avec l'indicatif 224, sans le signe + ni les espaces.</p></div>
+      <div class="contact-box"><div class="eyebrow" data-fr="Suivre le label" data-en="Follow the label">Suivre le label</div><h3>LUXE MUSIC</h3><p data-fr="Les réseaux sociaux officiels seront ajoutés ici dès que les comptes du label seront prêts." data-en="Official social media links will be added here when the label's accounts are ready.">Les réseaux sociaux officiels seront ajoutés ici dès que les comptes du label seront prêts.</p><div class="socials"><span>Conakry, Guinée</span><span>Rap · Drill · Mélodies</span></div></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> <strong class="gold-text">LUXE MUSIC</strong> · Conakry, Guinée</span><span data-fr="Indépendant par nature. Ambitieux par vision." data-en="Independent by nature. Ambitious by vision.">Indépendant par nature. Ambitieux par vision.</span></div></footer>
+<script>
+(function(){
+  let lang='fr';
+  const btn=document.getElementById('langBtn');
+  const menuBtn=document.getElementById('menuBtn');
+  const nav=document.getElementById('navlinks');
+  function setLang(next){
+    lang=next;document.documentElement.lang=lang;
+    document.querySelectorAll('[data-fr][data-en]').forEach(el=>{el.innerHTML=el.dataset[lang]});
+    btn.textContent=lang==='fr'?'EN':'FR';
+    btn.setAttribute('aria-label',lang==='fr'?'Switch to English':'Passer en français');
+  }
+  btn.addEventListener('click',()=>setLang(lang==='fr'?'en':'fr'));
+  menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));
+  nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+  document.getElementById('year').textContent=new Date().getFullYear();
+  // Remplace 224000000000 par le numéro WhatsApp réel, chiffres seulement, sans + ni espaces.
+  const waNumber='224000000000';
+  document.querySelectorAll('.whatsapp-link').forEach(a=>{a.href='https://wa.me/'+waNumber+'?text='+encodeURIComponent('Bonjour LUXE MUSIC, je vous contacte au sujet d’une collaboration.')});
+})();
+</script>
+</body>
+</html>
